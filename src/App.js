@@ -11,6 +11,7 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import { themeContext } from "./Context";
 import { useContext } from "react";
+import GoToTop from "./Components/GoToTop";
 
 function App() {
   const theme = useContext(themeContext);
@@ -31,6 +32,7 @@ function App() {
       <Portfolio />
       <Testimonial />
       <Contact />
+      <GoToTop />
       <Footer />
     </div>
   );

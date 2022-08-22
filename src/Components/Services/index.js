@@ -64,10 +64,10 @@ const Services = () => {
             detail={"Lorem ipsum dolor sit, consectetur adipisicing elit."}
           />
         </motion.div>
-        <motiondiv
+        <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
-        ></motiondiv>
+        ></div>
       </div>
     </div>
   );

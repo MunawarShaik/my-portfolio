@@ -10,6 +10,7 @@ import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import FloatingDiv from "../FloatingDiv/index";
+import { Link } from "react-scroll";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 
@@ -29,7 +30,10 @@ const Intro = () => {
             producting the Quality work
           </span>
         </div>
-        <button className="button i-button">Hire me</button>
+        <Link spy={true} smooth={true} activeClass="activeClass" to="Contact">
+          <button className="button i-button">Hire me</button>
+        </Link>
+
         <div className="i-icons">
           <img src={Github} alt="github" />
           <img src={LinkedIn} alt="linkedin" />

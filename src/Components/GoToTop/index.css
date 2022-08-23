@@ -23,9 +23,9 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 468px) {
   .top-btn {
     right: 0;
-    left: 40%;
+    left: 85%;
   }
 }
